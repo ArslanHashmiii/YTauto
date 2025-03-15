@@ -2,8 +2,15 @@ class GradioComponentsHTML:
 
     @staticmethod
     def get_html_header() -> str:
-        '''Create HTML for the header with an extra "talk on mehfil" button'''
+        '''Create HTML for the header with an extra "Talk on Mehfil" button'''
         return '''
+            <style>
+                @keyframes blink-border {
+                    0% { border-color: deeppink; }
+                    50% { border-color: #ffffff; }
+                    100% { border-color: deeppink; }
+                }
+            </style>
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
                 <h1 style="margin-left: 0px; font-size: 35px;">YTauto</h1>
                 <div style="flex-grow: 1; text-align: right;">
@@ -13,11 +20,11 @@ class GradioComponentsHTML:
                         </button>
                     </a>
                     <a href="http://www.mehfil.arslanhashmi.online/arslanhashmii" target="_blank" style="text-decoration: none;">
-                        <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: 2px solid pink; border-radius: 5px; cursor: pointer; transition: transform 0.1s ease;"
+                        <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: 2px solid deeppink; border-radius: 5px; cursor: pointer; transition: transform 0.1s ease; animation: blink-border 1s infinite; font-weight: bold;"
                             onmousedown="this.style.transform='scale(0.95)'"
                             onmouseup="this.style.transform='scale(1)'"
                             onmouseleave="this.style.transform='scale(1)'">
-                            talk on mehfil
+                            Talk on Mehfil
                         </button>
                     </a>
                     <a href="https://github.com/ArslanHashmmiii/YTauto" target="_blank" style="text-decoration: none;">
