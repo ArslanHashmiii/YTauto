@@ -2,7 +2,7 @@ class GradioComponentsHTML:
 
     @staticmethod
     def get_html_header() -> str:
-        '''Create HTML for the header with a modified Discord button and an extra "Talk on Mehfil" button'''
+        '''Create HTML for the header with "Talk on Mehfil" and GitHub buttons only'''
         return '''
             <style>
                 @keyframes blink-border {
@@ -14,13 +14,6 @@ class GradioComponentsHTML:
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
                 <h1 style="margin-left: 0px; font-size: 35px;">YTauto</h1>
                 <div style="flex-grow: 1; text-align: right;">
-                    <!-- Modified Discord button: small, square with logo -->
-                    <a href="https://discord.gg/ZhYkPHAm" target="_blank" style="text-decoration: none;">
-                        <button style="margin-right: 10px; width: 40px; height: 40px; background-color: #7289DA; border: none; border-radius: 5px; cursor: pointer; padding: 0;">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" alt="Discord" style="width: 100%; height: 100%; object-fit: contain;">
-                        </button>
-                    </a>
-                    <!-- Talk on Mehfil button -->
                     <a href="http://www.mehfil.arslanhashmi.online/arslanhashmii" target="_blank" style="text-decoration: none;">
                         <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: 2px solid deeppink; border-radius: 5px; cursor: pointer; transition: transform 0.1s ease; animation: blink-border 1s infinite; font-weight: bold;"
                             onmousedown="this.style.transform='scale(0.95)'"
@@ -29,7 +22,6 @@ class GradioComponentsHTML:
                             Talk on Mehfil
                         </button>
                     </a>
-                    <!-- GitHub button -->
                     <a href="https://github.com/ArslanHashmmiii/YTauto" target="_blank" style="text-decoration: none;">
                         <button style="padding: 10px 20px; font-size: 16px; color: #fff; background-color: #333; border: none; border-radius: 5px; cursor: pointer;">
                             Like the concept? Add a Star on Github 👉 ⭐
