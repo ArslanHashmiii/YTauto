@@ -7,7 +7,7 @@ class GradioComponentsHTML:
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
             <h1 style="margin-left: 0px; font-size: 35px;">YTauto</h1>
             <div style="flex-grow: 1; text-align: right;">
-                <a href="https://discord.gg/bWreuAyRaj" target="_blank" style="text-decoration: none;">
+                <a href="https://discord.gg/ZhYkPHAm" target="_blank" style="text-decoration: none;">
                 <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: none; border-radius: 5px; cursor: pointer;">Join Discord</button>
                 </a>
                 <a href="https://github.com/ArslanHashmmiii/YTauto" target="_blank" style="text-decoration: none;">
@@ -24,7 +24,7 @@ class GradioComponentsHTML:
           <h2 style='margin: 0; color: black'>ERROR : {error_message}</h2>
           <p style='margin: 10px 0; color: black'>Traceback Info : {stack_trace}</p>
           <p style='margin: 10px 0; color: black'>If the problem persists, don't hesitate to contact our support. We're here to assist you.</p>
-          <a href='https://discord.gg/qn2WJaRH' target='_blank' style='background: #a94442; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none;'>Get Help on Discord</a>
+          <a href='https://discord.gg/ZhYkPHAm' target='_blank' style='background: #a94442; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none;'>Get Help on Discord</a>
         </div>
         '''
 

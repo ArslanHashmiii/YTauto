@@ -1,8 +1,8 @@
 # 🚀🎬 YTauto 
 ## AI video automation framework
 <p align="center">
-  <a href="https://discord.gg/uERx39ru3R">
-    <img src="https://dcbadge.vercel.app/api/server/uERx39ru3R?compact=true&style=flat">
+  <a href="https://discord.gg/ZhYkPHAm">
+    <img src="https://dcbadge.vercel.app/api/server/ZhYkPHAm?compact=true&style=flat">
   </a>
   <a href="https://star-history.com/#ArslanHashmmiii/YTauto)">
     <img src="https://img.shields.io/github/stars/ArslanHashmmiii/YTauto?style=social">
@@ -19,7 +19,7 @@
     <img src="https://github.com/ArslanHashmmiii/YTauto/assets/121462835/083c8dc3-bac5-42c1-a08d-3ff9686d18c5" alt="YTauto-logo" style="border-radius: 20px;" width="18%"/>
 </div>
 <div align="center">
-  <a href="https://discord.gg/uERx39ru3R">
+  <a href="https://discord.gg/ZhYkPHAm">
     <img src="https://img.shields.io/discord/1126042224979886160?color=7289da&logo=discord&logoColor=blue&labelColor=white&color=cyan" alt="Join our Discord" height="34">
   </a>
 </div>
