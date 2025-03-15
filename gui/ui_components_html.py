@@ -2,18 +2,30 @@ class GradioComponentsHTML:
 
     @staticmethod
     def get_html_header() -> str:
-        '''Create HTML for the header'''
+        '''Create HTML for the header with an extra "talk on mehfil" button'''
         return '''
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 5px;">
-            <h1 style="margin-left: 0px; font-size: 35px;">YTauto</h1>
-            <div style="flex-grow: 1; text-align: right;">
-                <a href="https://discord.gg/ZhYkPHAm" target="_blank" style="text-decoration: none;">
-                <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: none; border-radius: 5px; cursor: pointer;">Join Discord</button>
-                </a>
-                <a href="https://github.com/ArslanHashmmiii/YTauto" target="_blank" style="text-decoration: none;">
-                <button style="padding: 10px 20px; font-size: 16px; color: #fff; background-color: #333; border: none; border-radius: 5px; cursor: pointer;">Like the concept? Add a Star on Github 👉 ⭐</button>
-                </a>
-            </div>
+                <h1 style="margin-left: 0px; font-size: 35px;">YTauto</h1>
+                <div style="flex-grow: 1; text-align: right;">
+                    <a href="https://discord.gg/ZhYkPHAm" target="_blank" style="text-decoration: none;">
+                        <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: none; border-radius: 5px; cursor: pointer;">
+                            Join Discord
+                        </button>
+                    </a>
+                    <a href="http://www.mehfil.arslanhashmi.online/arslanhashmii" target="_blank" style="text-decoration: none;">
+                        <button style="margin-right: 10px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #7289DA; border: 2px solid pink; border-radius: 5px; cursor: pointer; transition: transform 0.1s ease;"
+                            onmousedown="this.style.transform='scale(0.95)'"
+                            onmouseup="this.style.transform='scale(1)'"
+                            onmouseleave="this.style.transform='scale(1)'">
+                            talk on mehfil
+                        </button>
+                    </a>
+                    <a href="https://github.com/ArslanHashmmiii/YTauto" target="_blank" style="text-decoration: none;">
+                        <button style="padding: 10px 20px; font-size: 16px; color: #fff; background-color: #333; border: none; border-radius: 5px; cursor: pointer;">
+                            Like the concept? Add a Star on Github 👉 ⭐
+                        </button>
+                    </a>
+                </div>
             </div>
         '''
 
